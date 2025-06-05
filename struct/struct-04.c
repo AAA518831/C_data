@@ -23,11 +23,9 @@ int main(void) {
 
 	for (i = 0; i < 3; i++)
 	{
-		printf("학변: %d  이름: %s  학점: %.1f\n", list[2].number, list[2].name, list[2].grade);
+		printf("학번: %d  이름: %s  학점: %.1f\n", list[i]number, list[i].name, list[i].grade);
 	}
-	/*printf("%d\n", list[2].number);
-	printf("%s\n", list[2].name);
-	printf("%f", list[2].grade);*/
+	
 
 	return 0;
 }
